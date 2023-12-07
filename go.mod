@@ -18,10 +18,9 @@ require (
 	github.com/spf13/viper v1.7.1
 	github.com/stretchr/testify v1.7.0
 	go.uber.org/zap v1.16.1-0.20210329175301-c23abee72d19
-	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a
+	golang.org/x/crypto v0.1.0
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sys v0.0.0-20210510120138-977fb7262007
-	golang.org/x/tools v0.1.1 // indirect
+	golang.org/x/sys v0.1.0
 	gopkg.in/square/go-jose.v2 v2.6.0
 	k8s.io/api v0.21.2
 	k8s.io/apimachinery v0.21.2
