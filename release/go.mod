@@ -3,14 +3,17 @@ module github.com/aws/eks-anywhere/release
 go 1.16
 
 require (
+	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24 // indirect
 	github.com/Microsoft/hcsshim v0.8.21 // indirect
 	github.com/aws/aws-sdk-go v1.38.40
 	github.com/aws/aws-sdk-go-v2 v1.5.0
 	github.com/aws/eks-distro-build-tooling/release v0.0.0-20210810165539-7d41d9b36b74
-	github.com/docker/docker v20.10.6+incompatible // indirect
+	github.com/docker/docker v24.0.7+incompatible // indirect
 	github.com/fsouza/go-dockerclient v1.7.2
 	github.com/go-git/go-git/v5 v5.3.0
 	github.com/mitchellh/go-homedir v1.1.0
+	github.com/moby/patternmatcher v0.6.0 // indirect
+	github.com/moby/sys/sequential v0.5.0 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/sergi/go-diff v1.2.0 // indirect
 	github.com/spf13/cobra v1.1.3
